@@ -1,7 +1,6 @@
 import { getData } from "../database";
-//Crear un modelo Product con los metodos getByDescription, getById, getAll.
 
-class Users {
+class UserModel {
   constructor() {}
 
   async getAll() {
@@ -21,5 +20,11 @@ class Users {
   }
 }
 
-const users = new Users().getByEmail("michael.williams@x.dummyjson.com");
+//const users = new Users().getByEmail("michael.williams@x.dummyjson.com");
 //const users2 = new Product().getById(2);
+
+const users = new UserModel();
+
+const { getAll, getById, getByEmail } = users;
+
+export { getAll, getById, getByEmail };
