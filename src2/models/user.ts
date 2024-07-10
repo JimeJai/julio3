@@ -23,3 +23,4 @@ class Users {
 
 const users = new Users().getByEmail("michael.williams@x.dummyjson.com");
 //const users2 = new Product().getById(2);
+export { getAll, getById, getByEmail };

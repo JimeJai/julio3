@@ -23,5 +23,8 @@ class Product {
   }
 }
 
-const products = new Product().getByDescription("is a");
+const products = new Product();
 //const products2 = new Product().getById(2);
+
+const { getAll, getById, getByDescription } = products; // no puedo exportar un metodo sin la clase, no se como exportar la clase..
+export { getAll, getById, getByDescription }; // no se

@@ -4,7 +4,7 @@
   "description": "Crear una API, utilizando el módulo net y el patrón MVC (Modelo-Vista-Controlador), la cual debe consumir una base de datos (https://dummyjson.com/) que contiene usuarios y productos\r (Ruta para acceder a los usuarios: https://dummyjson.com/users y la ruta para acceder a los products: https://dummyjson.com/products)\r Requisitos:\r Inicialización del Proyecto con npm, git & github:\r Instalación de las dependencias necesarias.\r Crea un archivo database.js para configurar la conexión a la base de datos.",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node ./src2/models/user.ts"
+    "dev": "ts-node ./src2/client.ts"
   },
   "keywords": [],
   "author": "",
