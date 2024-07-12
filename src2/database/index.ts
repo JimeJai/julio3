@@ -10,5 +10,5 @@ async function getData(ruta: string) {
 
   return data;
 }
-
+//getData("products");
 export { getData };
